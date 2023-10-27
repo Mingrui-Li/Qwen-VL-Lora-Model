@@ -1,0 +1,44 @@
+[
+    {
+      "id": "identity_1",
+      "conversations": [
+        {
+          "from": "user",
+          "value": "Picture 1: <img>/data/mrli/Qwen-VL-Copy-Finetune/image/第一2.jpg</img>\n该广告是否合规"
+        },
+        {
+          "from": "assistant",
+          "value": "不合规，出现‘第一’这样的禁用词汇。"
+        },
+        {
+          "from": "user",
+          "value": "框出图中广告内容违规的地方"
+        },
+        {
+          "from": "assistant",
+          "value": "<ref>广告内容违规</ref><box>(797,234),(697,320)</box>"
+        }
+      ]
+    },
+    { 
+      "id": "identity_2",
+      "conversations": [
+        {
+          "from": "user",
+          "value": "Picture 1: <img>/data/mrli/Qwen-VL-Copy-Finetune/image/全网第一2.jpg</img>\n该广告是否合规"
+        },
+        {
+          "from": "assistant",
+          "value": "不合规，出现‘全网第一’这样的禁用词汇。"
+        },
+        {
+          "from": "user",
+          "value": "框出图中广告内容违规的地方"
+        },
+        {
+          "from": "assistant",
+          "value": "<ref>广告内容违规</ref><box>(52,267),(452,385)</box>"
+        }
+      ]
+    }
+  ]
