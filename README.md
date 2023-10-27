@@ -3,6 +3,8 @@
 
 使用V100的卡对Qwen-VL进行Lora微调，微调过程中产生各种报错，解决报错后可以成功运行，将成功运行的模型上传供参考
 
+<img src="output.jpg" />
+
 
 #### 1、fineturn.py
 
